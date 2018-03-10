@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "ML techno diary"
+theme = "hyde"
+
+[params]
+  description = "Nejen technické postřehy"
+  author = "Martin Lebeda"
+
+[[menu.main]]
+    name = "Archiv blogu"
+    title = "blog section"
+    weight = -110
+    identifier = "blog"
+    url = "/posts/"
+
+[[menu.main]]
+    name = "Projekty"
+    title = "project section"
+    weight = -110
+    identifier = "projects"
+    url = "/projects/"
