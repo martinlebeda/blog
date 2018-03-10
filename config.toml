@@ -1,4 +1,4 @@
-baseURL = "https://martinlebeda.github.io"
+baseURL = "https://martinlebeda.github.io/"
 languageCode = "cs-cz"
 title = "ML techno notes"
 theme = "hyde"
