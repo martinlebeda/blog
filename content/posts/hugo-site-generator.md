@@ -102,6 +102,9 @@ Pro zveřejnění vygenerovaných stránek je možné použít mnoho služeb. M�
 nejjednodužší varianta přišel github. Ale stejně jednoduché je vybrat si i jiný
 hosting.
 
+Jednoduchý a funkční postup je tady:
+https://gohugo.io/hosting-and-deployment/hosting-on-github/.
+
 Postup je možné prakticky krok za krokem použít a dobrat se tak k funkčním
 stránkám. 
 
