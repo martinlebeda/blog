@@ -1,12 +1,14 @@
 ---
 title: "Projekty"
-date: 2018-03-11T18:13:45+01:00
+date: 2018-01-01T18:13:45+01:00
 draft: true
 ---
 
-Moje prográmky, některé vznikly protože jsem je potřeboval vyřeřit pro sebe,
-některé abych si vyzkoušel programovací jazyk nebo technologii. Některé pak z
+Moje prográmky, některé vznikly protože jsem potřeboval vyřeřit něco pro sebe,
+některé abych si vyzkoušel programovací jazyk nebo technologii. Většinou pak z
 obojího důvodu.
+
+<!--more-->
 
 # Passswdgen
 
