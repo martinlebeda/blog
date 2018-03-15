@@ -1,3 +1,4 @@
 *.sh
 public
 themes/hyde
+content/.stversions
