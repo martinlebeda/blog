@@ -1,0 +1,14 @@
+{{ define "main" -}}
+<h1>{{.Title}}</h1>
+{{.Content}}
+    {{ $Nodate := .Params.nodate }}
+<ul class="posts">
+{{ range .Data.Pages -}}
+  <li>
+    <span><a href="{{ .Permalink }}">{{ .Title }}</a> 
+    {{ if not $Nodate }} <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }} </time> {{ end }} </span>
+  </li>
+{{- end }}
+</ul>
+{{- end }}
+
