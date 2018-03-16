@@ -5,10 +5,19 @@ draft: true
 ---
 
 Začal jsem řešit myšlenku jak publikovat své poznámky ohledně technických
-věcí. Nejlépe za málo peněz a úsilí hodně muziky. Všichni řeší Staticky
-generované stránky. Po první reakci, to je k ničemu jsem se nechal poučit, k
-čemu to vlastně je, jsem zjistil, že to je vlastně príma věc a pustil se do
-akce.
+věcí. Nejlépe ve smyslu za málo peněz hodně muziky. Kdo by to tak nechtěl?
+
+<!--more-->
+
+## Proč tyhle stránky a proč Hugo
+
+Proč vlastně psát poznámky veřejně? 
+% utřídím a učešu si myšlenky
+
+Proč hugo právě Hugo? Všichni řeší Staticky generované stránky. Po první
+reakci, to je k ničemu jsem se nechal poučit, k čemu to vlastně je, jsem
+zjistil, že to je vlastně príma věc a pustil se do akce.
+% starý koncept easyBlog
 
 Proč vlastně použít statický generátor webu:
 

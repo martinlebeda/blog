@@ -5,8 +5,23 @@
 <ul class="posts">
 {{ range .Data.Pages -}}
   <li>
-    <span><a href="{{ .Permalink }}">{{ .Title }}</a> 
+    <span><a href="{{ .Permalink }}">
+        {{ if isset .Params "project" }}<h2>{{ end }}
+        {{ .Title }}
+        {{ if isset .Params "project" }}</h2>{{ end }}
+      </a> 
     {{ if not $Nodate }} <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }} </time> {{ end }} </span>
+
+    {{ if isset .Params "project" }}
+      {{ .Summary }}
+      {{ if .Truncated }}
+      <div class="read-more-link">
+        <a href="{{ .RelPermalink }}">Pokračování…</a><br>
+        <a href="{{ .Params.project }}">Stránky projektu...</a>
+      </div>
+      {{ end }}
+    {{ end }}
+
   </li>
 {{- end }}
 </ul>
