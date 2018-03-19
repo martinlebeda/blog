@@ -29,9 +29,9 @@ Instalace byla opravdu tak jednoduchá jak slibuje návod na stránkách. Jeliko
 je program jediná binárka (napsaná v [go]()) stáhl jsem
 zkompilovanou verzi a zkopíroval do cesty k ostatním. Dále stačí
 přidat jeden řádek na konec konfigurace shellu (v mám případě do
-`~/.config/fish/config.fish`) a je hotovo: 
+`~/.zshrc`) a je hotovo: 
 ```
-eval (direnv hook fish)
+eval "$(direnv hook zsh)"
 ```
 Další shelly jsou popsány v dokumentaci na stránkách [programu](https://direnv.net/).
 
