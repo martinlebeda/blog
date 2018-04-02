@@ -1,7 +1,7 @@
 ---
 title: "Direnv"
 date: 2018-03-18T14:13:41+01:00
-draft: true
+draft: false
 ---
 
 Direnv je nástroj pro shell, který umožní nastavovat proměnné prostředí po
@@ -20,13 +20,13 @@ nastavení, narazil jsem na potřebu používat různé verze kompilátorů, kni
 nastavení. Toto se zatím daří řešit instalací různých verzí do různých adresářů
 a následně nastavením prostředí, nemusím tak používat těžkotonážní
 řešení jako je Vagrant. Vagrant je nástroj jistě mocný, mnohem mocnější než
-výše uvedené, a zajisté existují pádné důvody pro jeho použití, ale já jsem
+výše uvedené a zajisté existují pádné důvody pro jeho použití, ale já jsem
 zvolil řešení výrazně lehčí a pro mne dostačující.
 
 ## Instalace
 
 Instalace byla opravdu tak jednoduchá jak slibuje návod na stránkách. Jelikož
-je program jediná binárka (napsaná v [go]()) stáhl jsem
+je program jediná binárka (napsaná v [go](https://golang.org/)) stáhl jsem
 zkompilovanou verzi a zkopíroval do cesty k ostatním. Dále stačí
 přidat jeden řádek na konec konfigurace shellu (v mám případě do
 `~/.zshrc`) a je hotovo: 
@@ -35,9 +35,6 @@ eval "$(direnv hook zsh)"
 ```
 Další shelly jsou popsány v dokumentaci na stránkách [programu](https://direnv.net/).
 
-
-Pro lepší editaci jsem si doplnil ještě konfiguraci vimu o podporu syntaxe
-(https://github.com/direnv/direnv.vim).
 
 [Konfigurace](https://direnv.net/#man/direnv.toml.1) samotného `direnv` je v
 souboru `$HOME/.config/direnv/config.toml` a zejména umožňuje specifikovat pomocí
