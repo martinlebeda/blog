@@ -14,6 +14,6 @@ full:
 push:
   git-autocommit
   git push
-  fping ws && ssh ws "cd Projects/blog/ && ~/bin/git-update"
+  fping ws && ssh ws "cd Projects/blog/ && /home/martin/bin/git-update"
 
 # publish: push
