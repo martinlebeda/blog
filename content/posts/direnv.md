@@ -26,10 +26,24 @@ zvolil řešení výrazně lehčí a pro mne dostačující.
 ## Instalace
 
 Instalace byla opravdu tak jednoduchá jak slibuje návod na stránkách. Jelikož
+<<<<<<< Updated upstream
 je program jediná binárka (napsaná v [go](https://golang.org/)) stáhl jsem
+||||||| merged common ancestors
+je program jediná binárka (napsaná v [go]()) stáhl jsem
+=======
+je program jediná binárka (napsaná v go) stáhl jsem
+>>>>>>> Stashed changes
 zkompilovanou verzi a zkopíroval do cesty k ostatním. Dále stačí
+<<<<<<< Updated upstream
 přidat jeden řádek na konec konfigurace shellu (v mám případě do
 `~/.zshrc`) a je hotovo: 
+||||||| merged common ancestors
+přidat jeden řádek na konec konfigurace shellu (v mám případě do
+`~/.config/fish/config.fish`) a je hotovo: 
+=======
+přidat jeden řádek na konec konfigurace shellu (v mém případě do
+`~/.config/fish/config.fish`) a je hotovo: 
+>>>>>>> Stashed changes
 ```
 eval "$(direnv hook zsh)"
 ```
